@@ -6,11 +6,17 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="index.js"></script>
         <input id="num1" type="text" inputmode="numeric" placeholder="First Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+        <br>
         <input id="num2" type="text" inputmode="numeric" placeholder="Second Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+        <br>
         <input id="num3" type="text" inputmode="numeric" placeholder="Third Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-        <button onclick="sumNum()">Sum Numbers</button>
+        <br>
+
+        <button id="butt">Sum Numbers</button>
+        <br>
+        <span id="output"></span>
+        <script src="index.js"></script>
 
     </body>
 </html>

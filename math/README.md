@@ -9,3 +9,8 @@
 - The value in the first bar is suppose to be logged to the console
 - logs show null and I'm assuming that the value is being considered a string
 - Maybe I can log value type to the console to debug
+- Needed to parse the element as a number
+- needed to add the button listener
+- needed to move the script tag to the bottom of the html body so that the page could load first
+- document.getelementbyid was very important
+- declared the sum function before pulling everything from the html file
