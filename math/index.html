@@ -6,15 +6,19 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <h1>Amount Invested</h1>
         <input id="num1" type="text" inputmode="numeric" placeholder="First Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
         <br>
+        <h1>Number of Years Invested</h1>
         <input id="num2" type="text" inputmode="numeric" placeholder="Second Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
         <br>
+        <h1>Growth Per Year</h1>
         <input id="num3" type="text" inputmode="numeric" placeholder="Third Number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
         <br>
 
-        <button id="butt">Sum Numbers</button>
+        <button id="butt">Calculate</button>
         <br>
+        <h1>Total</h1>
         <span id="output"></span>
         <script src="index.js"></script>
 

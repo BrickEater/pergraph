@@ -4,7 +4,19 @@
 
 "git push origin main" seems to push all the commits within the queue to the GitHub repos
 
-2022/02/14:
+2022/08/15:
+To do list:
+    Label each input field
+    Write a for loop where one of the fields is the number of times it loops
+    The fields will be:
+        How much invested annually
+        How many years invested
+        Growth per year
+    Put a box for the total to be displayed in
+Things completed:
+
+
+2022/08/14:
 - I put the button on the page to activate the function.
 - The value in the first bar is suppose to be logged to the console
 - logs show null and I'm assuming that the value is being considered a string

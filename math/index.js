@@ -1,5 +1,5 @@
 function sumNum(a, b, c){
-    return a + b + c;
+    return a * b * c;
 }
 
 
