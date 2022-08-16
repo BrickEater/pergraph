@@ -4,6 +4,12 @@
 
 "git push origin main" seems to push all the commits within the queue to the GitHub repos
 
+2022/08/16:
+Added a for loop my js file
+typed out some notes on what the loop should do
+need to actually code this
+Will work on this another time
+
 2022/08/15:
 To do list:
     Label each input field
