@@ -3,21 +3,20 @@ function sumNum(a, b, c){
 }
 
 function theLoop(a, b, c){
+
+    let total = 0
+
     for (let i = 0; i < b; i++){
-/*         I have to loop "a" amount of times
-        I have to add "b" to a total per loop (total = b++ maybe)
-        I have to multiply total by "c" per loop (not sure if this should happen before or after adding "b")
- */
-        var total
+
+        console.log(total)
+        total = total + (a + (a * (c * 0.01))) * (i + 1);
+        console.log(total)
         console.log(i)
-        console.log(a + (a * (c * 0.01)))
-        console.log(total)
-        total = total + total
-        console.log(total)
+        return total;
 
-
-/*         I suspect that I need to put "i" into my logic so that a variable grows after each iteration. Something like total = a * (i + 1).
- */    }
+/*         I'm still stuck on this for loop, I'm not sure how to get it to continue sum from the previous iteration.
+ */
+    }
 }
 
 
