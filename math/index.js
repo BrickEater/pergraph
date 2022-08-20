@@ -9,14 +9,14 @@ function theLoop(a, b, c){
     for (let i = 0; i < b; i++){
 
         console.log(total)
-        total = total + (a + (a * (c * 0.01))) * (i + 1);
+        total = total + a
+        total = total + (total * c * 0.01)
         console.log(total)
-        console.log(i)
-        return total;
+        
 
-/*         I'm still stuck on this for loop, I'm not sure how to get it to continue sum from the previous iteration.
- */
     }
+
+    return total;
 }
 
 
