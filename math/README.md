@@ -4,6 +4,12 @@
 
 "git push origin main" seems to push all the commits within the queue to the GitHub repos
 
+2022/08/22:
+Make drop down bars for input fields
+Make if/else conditions to change for each dropdown option
+Had an idea where I have two fields so you could compare what each asset would make
+Would still like data displayed in tables and be able to download data in CSV
+
 2022/08/16:
 Added a for loop my js file
 typed out some notes on what the loop should do
