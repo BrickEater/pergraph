@@ -22,9 +22,9 @@ function theLoop(a, b, c){
 
 
 document.getElementById("butt").addEventListener("click", function(){
-    var a = parseInt(document.getElementById("num1").value);
-    var b = parseInt(document.getElementById("num2").value);
-    var c = parseInt(document.getElementById("num3").value);
+    var a = parseFloat(document.getElementById("num1").value);
+    var b = parseFloat(document.getElementById("num2").value);
+    var c = parseFloat(document.getElementById("num3").value);
 
     var s = theLoop(a, b, c);
     document.getElementById("output").innerText = s;
