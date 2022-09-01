@@ -4,6 +4,12 @@
 
 "git push origin main" seems to push all the commits within the queue to the GitHub repos
 
+
+2022/08/31:
+I need a reset button so that I can redo the calculation without refreshing the page
+I need a input field for a starting value
+I need a dividend field that you can choose to be monthly or quarterly
+
 2022/08/22:
 Make drop down bars for input fields
 Make if/else conditions to change for each dropdown option
